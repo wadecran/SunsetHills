@@ -26,13 +26,13 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="/Index.html">
                             Home
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/Solve.html">Solve</a>
+                        <a class="nav-link active" href="/Solve.html">Solve</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/Code.html">Code</a>
@@ -52,12 +52,44 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1 class="mt-5">The Exercise</h1>
-                <p class="lead">This page will display your JS exercise</p>
-                <ul class="list-unstyled">
-                    <li>The Javascript Exercise</li>
-                    <li>Is placed on this page</li>
-                </ul>
+                <h1 class="mt-5">Sunset Hills</h1>
+                <p class="lead">Enter six numbers (1-10) to represent building height, and the output will be the buildings that can see the sunset to the West</p>
+                <hr />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <input type="text" id="num1" placeholder="Enter a Number" />
+            </div>
+            <div class="col-2">
+                <input type="text" id="num2" placeholder="Enter a Number" />
+            </div>
+            <div class="col-2">
+                <input type="text" id="num3" placeholder="Enter a Number" />
+            </div>
+            <div class="col-2">
+                <input type="text" id="num4" placeholder="Enter a Number" />
+            </div>
+            <div class="col-2">
+                <input type="text" id="num5" placeholder="Enter a Number" />
+            </div>
+            <div class="col-2">
+                <input type="text" id="num6" placeholder="Enter a Number" />
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-2 text-center">
+                <button class="btn btn-success" id="btnStart">Start</button>
+            </div>
+            <div class="col-2 text-center">
+                <button class="btn btn-danger" id="btnClear">Clear</button>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <p id="output"></p>
             </div>
         </div>
     </div>
@@ -67,6 +99,7 @@
     <script src="//cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="//stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
+    <script src="scripts/JavaScript.js"></script>
 </body>
 
 </html>
